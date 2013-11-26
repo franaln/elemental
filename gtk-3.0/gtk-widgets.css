@@ -1056,7 +1056,7 @@ GtkModelMenuItem GtkBox GtkImage {
 }
 
 .notebook.frame {
-    border-width: 1px;
+    border-width: 0;
 }
 
 .notebook.header {
@@ -1102,7 +1102,7 @@ GtkModelMenuItem GtkBox GtkImage {
 
 .notebook tab:active {
     border-color: shade(@theme_base_color, 0.7);
-    background-color: shade(@theme_base_color, 0.95);
+    background-color: @theme_base_color;
     /* background-image: linear-gradient(to bottom, */
     /*                                   shade(@theme_base_color, 0.95), */
     /*                                   shade(@theme_base_color, 0.85) */
