@@ -188,7 +188,7 @@ GtkAssistant .sidebar {
 
     padding: 3px;
     border-width: 1px;
-    border-radius: 3px;
+    border-radius: 1px;
     border-style: solid;
     border-top-color: shade(@theme_bg_color, 0.8);
     border-right-color: shade(@theme_bg_color, 0.76);
@@ -3350,7 +3350,7 @@ GtkBubbleWindow .toolbar {
  * CSD *
  *******/
 .titlebar {
-    border-radius: 4px 4px 0 0;
+    border-radius: 0 0 0 0;
     background-image: linear-gradient(to bottom,
                                       shade(@wm_bg_a, 1.00),
                                       shade(@wm_bg_b, 0.90)
@@ -3376,9 +3376,9 @@ GtkBubbleWindow .toolbar {
     box-shadow: none;
 }
 
-.titlebar .title {
-    font: bold;
-}
+/* .titlebar .title { */
+/*     font: bold; */
+/* } */
 
 .titlebar:backdrop {
     background-image: linear-gradient(to bottom,

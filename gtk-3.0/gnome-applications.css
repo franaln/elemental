@@ -126,7 +126,7 @@ NautilusWindow .toolbar {
 
 NautilusWindow .sidebar .frame {
     border-style: none;
-    background-color: shade(@theme_bg_color, 0.8);
+    background-color: shade(@theme_bg_color, 0.4);
 }
 
 NautilusWindow > GtkGrid > .pane-separator,
