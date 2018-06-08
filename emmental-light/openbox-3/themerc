@@ -42,6 +42,7 @@ window.active.title.bg:         flat solid
 window.active.title.bg.color:   #ebebeb
 window.active.label.bg:         flat solid
 window.active.label.bg.color:   #ebebeb
+
 window.inactive.title.bg:       flat solid
 window.inactive.title.bg.color: #ebebeb
 window.inactive.label.bg:       flat solid
@@ -64,6 +65,7 @@ window.inactive.button.toggled.hover.bg:     parentrelative
 
 window.label.text.justify: center
 
+
 # ---------
 #   MENU
 # ---------
@@ -75,39 +77,42 @@ menu.separator.padding.height: 2
 menu.overlap.x: 0
 menu.overlap.y: 0
 
-menu.border.color: #2f343f
+menu.border.color:    #2f343f
 menu.separator.color: #2f343f
 
-menu.title.text.color: #ffffff
-menu.items.text.color: #a8adb5
-menu.items.disabled.text.color: #76797F
-menu.items.active.text.color: #2f343f
+menu.title.bg:              flat solid
+menu.title.bg.color:        #2f343f
+menu.items.bg:              flat solid
+menu.items.bg.color:        #2f343f
+menu.items.active.bg:       flat solid
+menu.items.active.bg.color: #40e0d0
+
+menu.title.text.color:                 #ffffff
+menu.items.text.color:                 #a8adb5
+menu.items.disabled.text.color:        #76797F
+menu.items.active.text.color:          #2f343f
 menu.items.active.disabled.text.color: #aeb0b6
 
-menu.items.bg: flat solid
-menu.items.bg.color: #2f343f
-menu.items.active.bg: flat solid
-menu.items.active.bg.color: #40e0d0
-menu.title.bg: flat solid
-menu.title.bg.color: #2f343f
-
 menu.title.text.justify: center
+
 
 # ---------
 #    OSD
 # ---------
 osd.border.width: 1
-osd.border.color: #acb3c1
+osd.border.color: #2f343f
 
-osd.bg: flat solid
+osd.bg:       flat solid
 osd.bg.color: #2f343f
 
-osd.label.bg: flat solid
-osd.label.bg.color:        #2f343f
-osd.label.bg.border.color: #2f343f
-osd.label.text.color: #D3DAE3
+osd.active.label.bg:           flat solid
+osd.active.label.bg.color:     #2f343f
+osd.active.label.text.color:   #d3dae3
+osd.inactive.label.bg:         flat solid
+osd.inactive.label.bg.color:   #2f343f
+osd.inactive.label.text.color: #d3dae3
 
-osd.hilight.bg: flat solid
-osd.hilight.bg.color: #40e0d0
-osd.unhilight.bg: flat solid
-osd.unhilight.bg.color: #2f343f
+osd.hilight.bg:         flat solid
+osd.hilight.bg.color:   #40e0d0
+osd.unhilight.bg:       flat solid
+osd.unhilight.bg.color: #596277
