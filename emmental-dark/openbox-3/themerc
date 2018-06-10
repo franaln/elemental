@@ -70,13 +70,13 @@ window.label.text.justify: center
 menu.border.width: 4
 menu.separator.width: 1
 menu.separator.padding.width: 10
-menu.separator.padding.height: 2
+menu.separator.padding.height: 4
 
 menu.overlap.x: 0
 menu.overlap.y: 0
 
 menu.border.color:    #2f343f
-menu.separator.color: #2f343f
+menu.separator.color: #404755
 
 menu.title.bg:              flat solid
 menu.title.bg.color:        #2f343f
@@ -85,7 +85,7 @@ menu.items.bg.color:        #2f343f
 menu.items.active.bg:       flat solid
 menu.items.active.bg.color: #40e0d0
 
-menu.title.text.color:                 #ffffff
+menu.title.text.color:                 #a8adb5
 menu.items.text.color:                 #a8adb5
 menu.items.disabled.text.color:        #76797F
 menu.items.active.text.color:          #2f343f
